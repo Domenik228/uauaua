@@ -1,0 +1,53 @@
+/* Общие стили */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+  }
+  
+  /* Light Mode Styles */
+  body.light-mode {
+    background-color: white;
+  }
+  
+  #lightBtn.light {
+    background-color: yellow;
+    color: black;
+  }
+  
+  #darkBtn.light {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Dark Mode Styles */
+  body.dark-mode {
+    background-color: #111;
+  }
+  
+  #lightBtn.dark {
+    background-color: yellow;
+    color: black;
+  }
+  
+  #darkBtn.dark {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Кнопки */
+  button {
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
